@@ -14,7 +14,7 @@
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .display{
@@ -52,7 +52,15 @@
     color: #09c372;
 }
 
+#playerX{
+    color: #09c372;
+}
+
 .player0{
+    color: #498AF8;
+}
+
+#player0{
     color: #498AF8;
 }
 
@@ -64,7 +72,7 @@
     margin-top: 1em;
 }
 
-#reset{
+.btn{
     background-color: #FF3860;
     color: white;
     padding: 8px;
@@ -73,4 +81,9 @@
     font-size: 20px;
     margin-left: 1em;
     cursor: pointer;
+    /* margin-top: 10px; */
+}
+
+.pontuation {
+    margin-top: 15px;
 }

@@ -9,10 +9,16 @@
 <body>
     <main class="background">
         <section class="title">
-            <h1>Tic Tac Toe</h1>
+            <h1>Jogo da Velha</h1>
         </section>
         <section class="display">
-            Player <span class="display-player playerX">X</span>'s turn
+            Player <span class="display-player playerX">X</span>
+            
+            <div class="pontuation">
+                <span id="playerX"></span>
+                <span id="player0"></span>
+                <span id="won"></span>
+            </div>
         </section>
         <section class="container">
             <div class="tile"></div>
@@ -27,7 +33,8 @@
         </section>
         <section class="display announcer hide"></section>
         <section class="controls">
-            <button id="reset">Reset</button>
+            <button class="btn" id="reset">Reset</button>
+            <button class="btn" id="game-reset">Reiniciar Partida</button>
         </section>
     </main>
 </body>
